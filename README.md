@@ -1,15 +1,20 @@
-William Chapin and I implement several computer vision techniques in MatLab to recognize the postion of a chess board given only an RGB image of that board. 
+Chess Vision: Chess Position Recogition using Computer Vision Techniques and a CNN
+==================================================================================
+**Authors:** Toby Frick and William Chapin
+
+We implement several computer vision techniques in MatLab to recognize the postion of a chess board given only an RGB image of that board. 
 Final Report.pdf is a paper that we wrote that explains the development process in more depth. If you'd like to use our system yourself, see instructions below.
-____________________________________________________________________________________________________________________________________________________________
-**References:**
+
+# References:
 
 This Project was developed in collaboration with William Chapin under the guidance of Professor Jerod Weinman in Grinnell College's CSC-262 Computer Vision Class.
 Inspiration for this project and the training dataset for our CNN comes from Andrew Underwood's project [here](https://towardsdatascience.com/board-game-image-recognition-using-neural-networks-116fc876dafa).
 
 Math inspiring our image homography implementation by David Kriegman [here](https://cseweb.ucsd.edu//classes/wi07/cse252a/homography_estimation/homography_estimation.pdf).
 
-____________________________________________________________________________________________________________________________________________________________
- **Instructions for how to run chess.m script:**
+# How to Run:
+
+**To run chess.m script:**
 
  All files aside from the pdf must be in the same directory for the script to work. 
  The script which uses all other files and functions (except the pdf of course) is 
@@ -17,7 +22,7 @@ ________________________________________________________________________________
  images.
 
 
-**To run the script on an image of your choice, do the following:**
+**To run the script on an image of your choice:**
 
  1. load your image to the matlab workspace using the imread() function.
 
