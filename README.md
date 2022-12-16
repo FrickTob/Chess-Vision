@@ -14,6 +14,8 @@ Math inspiring our image homography implementation by David Kriegman [here](http
 
 # How to Run:
 
+All images work on our system to varying degrees of success and you can use these images yourself if you want to use our project, but don't have any chess board images yourself.
+
 **To run chess.m script:**
 
  All files aside from the pdf must be in the same directory for the script to work. 
@@ -23,6 +25,8 @@ Math inspiring our image homography implementation by David Kriegman [here](http
 
 
 **To run the script on an image of your choice:**
+
+**Note:** This system requires specifically oriented images. If you want to use your own images, try to use a chess board and set that look as similar as possible to the ones seen in the sample images and place the board on a dark surface. Black surfaces work best.
 
  1. load your image to the matlab workspace using the imread() function.
 
@@ -49,4 +53,6 @@ Math inspiring our image homography implementation by David Kriegman [here](http
  classifiedBoard = classifySlices(slices, trained_network1);
 
  You now have a classified chess board corresponding to the board you used
- as input.
+ as input!
+ 
+ **Thank you for looking into our project! We're very proud of what we've accomplished and hope you enjoy it too.**
